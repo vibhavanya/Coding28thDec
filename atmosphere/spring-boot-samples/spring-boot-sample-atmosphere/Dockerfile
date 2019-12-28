@@ -5,7 +5,7 @@ RUN mkdir -p /usr/src/myapp
 
 # COPY APPLICTAION COde
 COPY target/spring-boot-sample-atmosphere-1.4.0.BUILD-SNAPSHOT.jar    /usr/src/myapp
-vi
+
 # Setup Worki:ng DIR
 WORKDIR /usr/src/myapp
 
